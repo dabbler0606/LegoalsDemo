@@ -11,7 +11,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Text("天助自助者")
+            Text("天助自助者!!")
                 .font(.headline)
             Text("God helps those who help themselves")
                 .font(.system(.headline, design: .rounded))
@@ -40,3 +40,7 @@ struct ContentView_Previews: PreviewProvider {
         }
     }
 }
+
+// Apple
+
+
