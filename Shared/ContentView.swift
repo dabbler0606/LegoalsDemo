@@ -7,15 +7,36 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            Text("天助自助者")
+                .font(.headline)
+            Text("God helps those who help themselves")
+                .font(.system(.headline, design: .rounded))
+        }
+        .foregroundColor(Color.black)
+        .padding()
+        .contextMenu() {
+            HStack {
+                Button(action: {
+
+                }) {
+                    HStack {
+                        Text("Copy")
+                        Image("rectangle.on.rectangle.angled")
+                    }
+                }
+            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+        }
     }
 }

@@ -49,6 +49,7 @@
 		C8CC6C29268D2A9300416997 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8CC6C2D268D2A9300416997 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C8CC6C2F268D2A9300416997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8CC6C44268D2EC200416997 /* LegoalsDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LegoalsDemo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +87,7 @@
 		C8CC6C01268D2A8F00416997 = {
 			isa = PBXGroup;
 			children = (
+				C8CC6C44268D2EC200416997 /* LegoalsDemo.entitlements */,
 				C8CC6C06268D2A9000416997 /* Shared */,
 				C8CC6C10268D2A9300416997 /* iOS */,
 				C8CC6C17268D2A9300416997 /* macOS */,
@@ -470,6 +472,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LegoalsDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KD2HPT42M;
 				ENABLE_PREVIEWS = YES;
@@ -482,6 +485,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "wangweihao-xiyoulinux.org.LegoalsDemo";
 				PRODUCT_NAME = LegoalsDemo;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -492,6 +496,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LegoalsDemo.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9KD2HPT42M;
 				ENABLE_PREVIEWS = YES;
@@ -504,6 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "wangweihao-xiyoulinux.org.LegoalsDemo";
 				PRODUCT_NAME = LegoalsDemo;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
